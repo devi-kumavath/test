@@ -1,0 +1,1 @@
+writing data using writeFile(): it will create a new file and write data. If the file already exists, it will clear old data and write new data.

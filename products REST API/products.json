@@ -1,0 +1,203 @@
+ [
+    {
+      "name": "Samsung Gaming",
+      "price": 49.99,
+      "company": "Samsung"
+    },
+    {
+      "name": "iPhone 13",
+      "price": 29.99,
+      "company": "Apple"
+    },
+    {
+      "name": "Dell Inspiron",
+      "price": 19.99,
+      "company": "Dell"
+    },
+    {
+      "name": "Mi 12",
+      "price": 39.99,
+      "company": "Mi"
+    },
+    {
+      "name": "Samsung Galaxy S22",
+      "price": 59.99,
+      "company": "Samsung"
+    },
+    {
+      "name": "iPhone 14 Pro",
+      "price": 49.99,
+      "company": "Apple"
+    },
+    {
+      "name": "Dell XPS 15",
+      "price": 32.99,
+      "company": "Dell"
+    },
+    {
+      "name": "Mi 13 Pro",
+      "price": 79.99,
+      "company": "Mi"
+    },
+    {
+      "name": "Samsung Smart TV",
+      "price": 44.99,
+      "company": "Samsung"
+    },
+    {
+      "name": "iPhone SE",
+      "price": 37.99,
+      "company": "Apple"
+    },
+    {
+      "name": "Dell Alienware",
+      "price": 23.99,
+      "company": "Dell"
+    },
+    {
+      "name": "Mi 11 Lite",
+      "price": 62.99,
+      "company": "Mi"
+    },
+    {
+      "name": "Samsung Galaxy A52",
+      "price": 55.99,
+      "company": "Samsung"
+    },
+    {
+      "name": "iPhone XR",
+      "price": 29.99,
+      "company": "Apple"
+    },
+    {
+      "name": "Dell Latitude",
+      "price": 17.99,
+      "company": "Dell"
+    },
+    {
+      "name": "Mi 10T",
+      "price": 51.99,
+      "company": "Mi"
+    },
+    {
+      "name": "Samsung QLED TV",
+      "price": 63.99,
+      "company": "Samsung"
+    },
+    {
+      "name": "iPhone 11",
+      "price": 38.99,
+      "company": "Apple"
+    },
+    {
+      "name": "Dell Precision",
+      "price": 27.99,
+      "company": "Dell"
+    },
+    {
+      "name": "Mi Note 10",
+      "price": 74.99,
+      "company": "Mi"
+    },
+    {
+      "name": "Samsung Galaxy Note 20",
+      "price": 46.99,
+      "company": "Samsung"
+    },
+    {
+      "name": "iPhone 12 Mini",
+      "price": 32.99,
+      "company": "Apple"
+    },
+    {
+      "name": "Dell Vostro",
+      "price": 21.99,
+      "company": "Dell"
+    },
+    {
+      "name": "Mi Mix 4",
+      "price": 66.99,
+      "company": "Mi"
+    },
+    {
+      "name": "Samsung 4K UHD TV",
+      "price": 59.99,
+      "company": "Samsung"
+    },
+    {
+      "name": "iPhone X",
+      "price": 49.99,
+      "company": "Apple"
+    },
+    {
+      "name": "Dell Inspiron 2-in-1",
+      "price": 34.99,
+      "company": "Dell"
+    },
+    {
+      "name": "Mi 11T Pro",
+      "price": 83.99,
+      "company": "Mi"
+    },
+    {
+      "name": "Samsung Curved Monitor",
+      "price": 47.99,
+      "company": "Samsung"
+    },
+    {
+      "name": "iPhone 12 Pro Max",
+      "price": 36.99,
+      "company": "Apple"
+    },
+    {
+      "name": "Dell XPS 13",
+      "price": 25.99,
+      "company": "Dell"
+    },
+    {
+      "name": "Mi 9",
+      "price": 70.99,
+      "company": "Mi"
+    },
+    {
+      "name": "Samsung Chromebook",
+      "price": 53.99,
+      "company": "Samsung"
+    },
+    {
+      "name": "iPhone 8 Plus",
+      "price": 27.99,
+      "company": "Apple"
+    },
+    {
+      "name": "Dell G5 Gaming Laptop",
+      "price": 15.99,
+      "company": "Dell"
+    },
+    {
+      "name": "Mi A3",
+      "price": 57.99,
+      "company": "Mi"
+    },
+    {
+      "name": "Samsung Galaxy Tab S7",
+      "price": 67.99,
+      "company": "Samsung"
+    },
+    {
+      "name": "iPhone SE (2nd Gen)",
+      "price": 42.99,
+      "company": "Apple"
+    },
+    {
+      "name": "Dell Ultrasharp Monitor",
+      "price": 31.99,
+      "company": "Dell"
+    },
+    {
+      "name": "Mi 9T Pro",
+      "price": 72.99,
+      "company": "Mi"
+    }
+  ]
+  

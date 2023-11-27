@@ -1,0 +1,7 @@
+The Path module provides a way of working with directories and file paths
+
+
+
+ref : https://www.w3schools.com/nodejs/ref_path.asp
+
+ref : https://nodejs.org/api/path.html

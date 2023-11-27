@@ -1,0 +1,72 @@
+#  Products RESTFul API
+
+The Products RESTful API is a web service that allows users to interact with a collection of product data. It provides various endpoints for retrieving, filtering, and sorting product information. This project serves as a backend for managing and accessing product-related data, making it ideal for e-commerce platforms, inventory management, and other applications that involve product management.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Routes](#routes)
+- [Controllers](#controllers)
+- [Populating MongoDB with Sample Data](#populating-mongodb-with-sample-data)
+- [Environment Variables](#environment-variables)
+- [Error Handling](#error-handling)
+
+
+## Installation
+
+1. Clone this repository to your local machine.
+2. Run `npm install` to install project dependencies.
+3. Create a `.env` file and set up your environment variables (see [Environment Variables](#environment-variables) section below).
+
+## Usage
+
+1. Start the application by running `npm start`.
+2. The server will start on the specified port (default is 5000).
+3. You can access the API by sending requests to the appropriate routes (see [Routes](#routes)).
+
+## Routes
+
+- `/api/products`: This route is for managing products. It supports the following endpoints:
+
+  - `GET /`: Get a paginated list of all products. You can specify the page using the `page` query parameter.
+  - `GET /filter`: Filter products based on company, name, and featured status using query parameters.
+  - `GET /sort`: Sort and filter products based on name and sort criteria using query parameters.
+  - `GET /:id`: Get a specific product by its ID.
+
+## Controllers
+
+- `products.controller.js`: This file contains the following controllers for managing products:
+
+  - `getAllProducts`: Retrieves a paginated list of all products.
+  - `getProductById`: Retrieves a product by its ID.
+  - `filterProducts`: Filters products based on query parameters.
+  - `sortProducts`: Sorts and filters products based on query parameters.
+
+## Populating MongoDB with Sample Data
+
+To populate your MongoDB database with the sample product data provided in `products.json`, you can run a Node.js script named `productDB.js`. This script will read the data from the JSON file and insert it into your database.
+
+### Steps to Populate MongoDB
+
+1. Make sure you have Node.js and npm (Node Package Manager) installed on your system.
+
+2. Navigate to your project directory in your terminal.
+
+3. Run the following command to execute the `productDB.js` script:
+
+   ```bash
+   
+   node productDB.js
+  
+## Environment Variables
+
+- `PORT`: Specifies the port on which the server will run. Default is 5000.
+- `MONGODB_URI`: Specifies the MongoDB connection URI.
+
+
+## Error Handling
+
+The application includes error handling for common scenarios. Errors are returned in JSON format with appropriate HTTP status codes.
+
+

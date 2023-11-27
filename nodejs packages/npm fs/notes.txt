@@ -1,0 +1,44 @@
+Common use for the File System module:  👩‍💻✍️
+Write Files
+Append Files
+Close Files
+Delete Files
+
+What is Synchronous and Asynchronous approach?  👩‍💻✍️
+
+Every method in fs module has synchronous and asynchronous forms.
+
+
+Synchronous approach: They are called blocking functions as it waits for each operation to complete,
+only after that, it executes the next operation, hence blocking the next command from execution 
+
+Asynchronous approach: They are called non-blocking functions as it never waits for each operation to complete,
+rather it executes all operations in the first go itself. 
+
+Create Files  : 👩‍💻✍️
+fs.appendFile() method appends specified content to a file. If the file does not exist, the file will be created
+fs.open() method takes a "flag" as the second argument, if the flag is "w" for "writing", the specified file is opened for writing. If the file does not exist, an empty file is created
+fs.writeFile() method replaces the specified file and content if it exists. If the file does not exist, a new file, containing the specified content, will be created
+
+
+Read Files : 👩‍💻✍️
+fs.readFile() method is used to read files on your computer.
+fs.readFileSync()
+
+Update Files : 👩‍💻✍️
+fs.appendFile() method appends the specified content at the end of the specified file
+fs.writeFile() method replaces the specified file and content
+
+Delete Files : 👩‍💻✍️
+The fs.unlink() method deletes the specified file:
+
+Rename Files : 👩‍💻✍️
+fs.rename() method renames the specified file
+
+
+
+
+ref : https://www.geeksforgeeks.org/node-js-file-system-complete-reference/?ref=lbp
+ref : https://www.tutorialsteacher.com/nodejs/nodejs-file-system
+ref : https://intellipaat.com/blog/tutorial/node-js-tutorial/file-system-module-node-js/
+
